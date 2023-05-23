@@ -9,15 +9,37 @@
 </head>
 <body>
     <header>
-        <h1>Título</h1>
+        <h1>Vamos contar</h1>
     </header>
     <section>
-        <div>
-            Testando...
+        <div> 
+            <p>Início: 
+                <input type="number" name="contag1" id="cont1">
+                <label for="cont1"></label>
+            </p>
         </div>
-        <div>
-            Olá!
+        <div> 
+            <p>Fim:
+                <input type="number" name="contag2" id="cont2">
+                <label for="cont2"></label>
+            </p>  
         </div>
+        <div> 
+            <p>Passo:
+                <input type="number" name="passo3" id="pass3">
+                <label for="pass3"></label>
+            </p>  
+        </div>
+
+        <div>
+            <p>
+                <input type="submit" value="Contar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+            Preparando a contagem...
+        </div>
+
     </section>
     <footer>
         <p>&copy; CursoemVideo</p>
